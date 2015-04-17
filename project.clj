@@ -12,6 +12,9 @@
   :plugins [[environ/environ.lein "0.2.1"]]
   :hooks [environ.leiningen.hooks]
   :uberjar-name "clojurenauts-twitter-bot.jar"
-  :profiles {:uberjar {:aot :all} :production {:env {:production true}}}
+  :profiles {
+             :uberjar {:aot :all}
+             :dev {:plugins [[com.jakemccrary/lein-test-refresh "0.8.0"]]}
+             :production {:env {:production true}}}
   :main ^:skip-aot bot.core
   :target-path "target/%s")
