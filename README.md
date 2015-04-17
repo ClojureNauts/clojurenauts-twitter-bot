@@ -1,4 +1,4 @@
-ClojureNauts twitter-bot
+ClojureNauts twitter-bot [![Build Status](https://travis-ci.org/ClojureNauts/clojurenauts-twitter-bot.svg?branch=master)](https://travis-ci.org/ClojureNauts/clojurenauts-twitter-bot)
 ========================
 
 A bot that will tweet on behave of [@ClojureNauts][].
