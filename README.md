@@ -18,11 +18,12 @@ For this project I would like to explore the following subjects
 
 > Travis CI is a hosted continuous integration service.
 
-Travis CI is configured with a `.travis.yml` file. See the [documentation][travis-docs] for more information.
+Travis CI is configured with a [`.travis.yml`][.travis.yml] file. See the [documentation][travis-docs] for more information.
 
 [@ClojureNauts]: https://twitter.com/ClojureNauts
 [travisci]: https://travis-ci.org/
 [heroku]: https://www.heroku.com/
 [webhooks]: https://developer.github.com/webhooks/
 [twitter]: https://dev.twitter.com/rest/public
+[.travis.yml]: https://github.com/ClojureNauts/clojurenauts-twitter-bot/blob/master/.travis.yml
 [travis-docs]: http://docs.travis-ci.com/
