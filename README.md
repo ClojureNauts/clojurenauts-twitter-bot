@@ -20,6 +20,12 @@ For this project I would like to explore the following subjects
 
 Travis CI is configured with a [`.travis.yml`][.travis.yml] file. See the [documentation][travis-docs] for more information.
 
+### Heroku
+
+> Heroku (pronounced her-OH-koo) is a cloud application platform – a new way of building and deploying web apps.
+
+We followed the [tutorial][heroku-tutorial] and adopted it to the project.
+
 [@ClojureNauts]: https://twitter.com/ClojureNauts
 [travisci]: https://travis-ci.org/
 [heroku]: https://www.heroku.com/
@@ -27,3 +33,4 @@ Travis CI is configured with a [`.travis.yml`][.travis.yml] file. See the [docum
 [twitter]: https://dev.twitter.com/rest/public
 [.travis.yml]: https://github.com/ClojureNauts/clojurenauts-twitter-bot/blob/master/.travis.yml
 [travis-docs]: http://docs.travis-ci.com/
+[heroku-tutorial]: https://devcenter.heroku.com/articles/getting-started-with-clojure#introduction
