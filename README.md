@@ -26,6 +26,10 @@ Travis CI is configured with a [`.travis.yml`][.travis.yml] file. See the [docum
 
 We followed the [tutorial][heroku-tutorial] and adopted it to the project.
 
+### Twitter API
+
+The [Twitter developer documentation][twitter-docs] lists [adamwynne/twitter-api][] as Clojure [API library][twitter-api-libraries].
+
 [@ClojureNauts]: https://twitter.com/ClojureNauts
 [travisci]: https://travis-ci.org/
 [heroku]: https://www.heroku.com/
@@ -34,3 +38,6 @@ We followed the [tutorial][heroku-tutorial] and adopted it to the project.
 [.travis.yml]: https://github.com/ClojureNauts/clojurenauts-twitter-bot/blob/master/.travis.yml
 [travis-docs]: http://docs.travis-ci.com/
 [heroku-tutorial]: https://devcenter.heroku.com/articles/getting-started-with-clojure#introduction
+[twitter-docs]: https://dev.twitter.com/overview/documentation
+[adamwynne/twitter-api]: https://github.com/adamwynne/twitter-api
+[twitter-api-libraries]: https://dev.twitter.com/overview/api/twitter-libraries
