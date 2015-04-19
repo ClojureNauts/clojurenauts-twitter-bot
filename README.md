@@ -3,6 +3,10 @@ ClojureNauts twitter-bot [![Build Status](https://travis-ci.org/ClojureNauts/clo
 
 A bot that will tweet on behave of [@ClojureNauts][].
 
+First [automatic tweet][tweet]
+
+> This tweet was send from a REPL
+
 Goal
 ----
 
@@ -49,3 +53,4 @@ git update-index --assume-unchanged profiles.clj
 [twitter-docs]: https://dev.twitter.com/overview/documentation
 [adamwynne/twitter-api]: https://github.com/adamwynne/twitter-api
 [twitter-api-libraries]: https://dev.twitter.com/overview/api/twitter-libraries
+[tweet]: https://twitter.com/ClojureNauts/status/589754154437980160
