@@ -28,7 +28,15 @@ We followed the [tutorial][heroku-tutorial] and adopted it to the project.
 
 ### Twitter API
 
+> To give everyone the power to create and share ideas and information instantly, without barriers.
+
 The [Twitter developer documentation][twitter-docs] lists [adamwynne/twitter-api][] as Clojure [API library][twitter-api-libraries].
+
+To use it you need to configure security tokens found at [https://dev.twitter.com/apps/](https://dev.twitter.com/apps/) in `profiles.clj`, but make sure that the actual secrets do not end up in the repo. You can tell `git` to ignore the changes with the following command
+
+```sh
+git update-index --assume-unchanged profiles.clj
+```
 
 [@ClojureNauts]: https://twitter.com/ClojureNauts
 [travisci]: https://travis-ci.org/
