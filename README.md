@@ -30,6 +30,12 @@ Travis CI is configured with a [`.travis.yml`][.travis.yml] file. See the [docum
 
 We followed the [tutorial][heroku-tutorial] and adopted it to the project.
 
+### GitHub Webhooks
+
+> Webhooks allow you to build or set up integrations which subscribe to certain events on GitHub.com
+
+See the [documentation][webhooks] for more information.
+
 ### Twitter API
 
 > To give everyone the power to create and share ideas and information instantly, without barriers.
