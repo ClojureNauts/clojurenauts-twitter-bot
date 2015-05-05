@@ -60,3 +60,13 @@ git update-index --assume-unchanged profiles.clj
 [adamwynne/twitter-api]: https://github.com/adamwynne/twitter-api
 [twitter-api-libraries]: https://dev.twitter.com/overview/api/twitter-libraries
 [tweet]: https://twitter.com/ClojureNauts/status/589754154437980160
+
+
+## Getting Started
+
+First you need to clone the project:
+```
+git clone git@github.com:ClojureNauts/clojurenauts-twitter-bot.git
+```
+
+Run `lein deps` from inside the folder. Make sure to run `lein test` afterwards so you can see that the dependencies where fetched and the tests pass. Next start the server with `lein run` and visit: http://localhost:5000/ . Youu should see a `["Hello" :from ClojureNauts]`.
